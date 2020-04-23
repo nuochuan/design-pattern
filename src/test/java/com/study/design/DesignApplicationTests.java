@@ -31,8 +31,8 @@ class DesignApplicationTests {
         double fee1 = saleService.sale("vip", 100);
         System.out.println(fee1);
 
-        double fee2 = saleService.sale("svip", 100);
-        System.out.println(fee2);
+        double fee3 = saleService.sale("svip", 100);
+        System.out.println(fee3);
     }
 
 
