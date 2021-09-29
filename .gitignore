@@ -30,3 +30,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### idea
+*/build/*
+rebel.xml
+*.DS_Store
+LOG_HOME_IS_UNDEFINED/
