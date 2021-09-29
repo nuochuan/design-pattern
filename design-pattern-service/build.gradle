@@ -1,45 +1,7 @@
-plugins {
-    id 'org.springframework.boot' version '2.4.1'
-    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
-    id 'java'
-}
-
-group = 'com.nuochuan'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
-
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
-}
-
-repositories {
-    mavenCentral()
-}
-
-bootJar {
-    enabled = false
-}
-
-jar {
-    enabled = true
-}
-
 dependencies {
-
-    implementation project(':design-pattern-dao')
-    implementation project(':design-pattern-manager')
-    implementation project(':design-pattern-api')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
     implementation 'org.springframework.boot:spring-boot-starter'
-}
-
-dependencyManagement {
-    imports {
-        mavenBom 'com.taobao.arthas:arthas-spring-boot-starter:3.4.8'
-    }
-}
-
-test {
-    useJUnitPlatform()
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.5.5'
 }
