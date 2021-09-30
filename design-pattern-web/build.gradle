@@ -22,8 +22,10 @@ jar {
 
 dependencies {
 
+    implementation project(':design-pattern-service')
     implementation project(':design-pattern-model')
-    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
 }
 
 test {

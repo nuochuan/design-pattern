@@ -1,3 +1,6 @@
 rootProject.name = 'design-pattern'
-include 'design-pattern-service'
 
+include 'start'
+include 'design-pattern-web'
+include 'design-pattern-service'
+include 'design-pattern-model'
