@@ -4,7 +4,7 @@
 <mapper namespace="com.nuochuan.designpattern.mybatis.mapper.MVCMybatisDemoUserMapper">
 
     <!-- Read -->
-    <select id="queryUserInfo" resultType="com.nuochuan.designpattern.mybatis.entity.MVCMybatisDemoUser">
+    <select id="queryUserInfo" resultType="com.nuochuan.design.mybatis.entity.MVCMybatisDemoUser">
         select * from UserInfo where id=#{id}
     </select>
 

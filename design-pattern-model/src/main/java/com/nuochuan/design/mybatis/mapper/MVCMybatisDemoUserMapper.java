@@ -14,17 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nuochuan.designpattern.mybatis.config;
+package com.nuochuan.design.mybatis.mapper;
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.context.annotation.Configuration;
+import com.nuochuan.design.mybatis.entity.MVCMybatisDemoUser;
+
+import org.apache.ibatis.annotations.Mapper;
+
 
 /**
- * 使用MapperScan批量扫描所有的Mapper接口
+ * 指定这是一个操作数据库的mapper
  *
  * @author Noel
  */
-@Configuration
-@MapperScan("com.nuochuan.designpattern.mybatis")
-public class MVCMybatisDemoConfig {
+@Mapper
+public interface MVCMybatisDemoUserMapper {
+    MVCMybatisDemoUser queryUserInfo(String id);
 }

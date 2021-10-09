@@ -1,4 +1,4 @@
-package com.nuochuan.designpattern;
+package com.nuochuan.design;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

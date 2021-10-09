@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nuochuan.designpattern.mybatis.entity;
+package com.nuochuan.design.mybatis.entity;
 
 import java.io.Serializable;
 

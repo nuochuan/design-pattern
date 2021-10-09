@@ -1,4 +1,4 @@
-package com.nuochuan.designpattern.controller;
+package com.nuochuan.design.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.nuochuan.designpattern.GetUserInfoService;
+import com.nuochuan.design.service.GetUserInfoService;
 
 
 /**

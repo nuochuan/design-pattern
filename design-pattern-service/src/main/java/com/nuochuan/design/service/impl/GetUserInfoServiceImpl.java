@@ -1,15 +1,12 @@
-package com.nuochuan.designpattern.impl;
+package com.nuochuan.design.service.impl;
 
 
-import com.nuochuan.designpattern.mybatis.entity.MVCMybatisDemoUser;
-import com.nuochuan.designpattern.mybatis.mapper.MVCMybatisDemoUserMapper;
-import com.nuochuan.designpattern.GetUserInfoService;
+import com.nuochuan.design.mybatis.entity.MVCMybatisDemoUser;
+import com.nuochuan.design.mybatis.mapper.MVCMybatisDemoUserMapper;
+import com.nuochuan.design.service.GetUserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
-
-import javax.annotation.Resource;
 
 
 
