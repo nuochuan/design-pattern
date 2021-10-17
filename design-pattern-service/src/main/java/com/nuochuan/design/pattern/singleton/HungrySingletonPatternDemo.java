@@ -1,5 +1,8 @@
 package com.nuochuan.design.pattern.singleton;
 
+/**
+ * 饿汉单例模式
+ */
 public class HungrySingletonPatternDemo {
 
     public static void main(String[] args) {
@@ -35,7 +38,7 @@ public class HungrySingletonPatternDemo {
         }
 
         public void execute() {
-            System.out.println("单例类的方法！");
+            System.out.println("饿汉模式！");
         }
     }
 }

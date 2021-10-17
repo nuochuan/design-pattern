@@ -1,5 +1,8 @@
 package com.nuochuan.design.pattern.factory;
 
+/**
+ * 工厂模式
+ */
 public class AbstractFactoryPatternDemo {
 
     public static void main(String[] args) {

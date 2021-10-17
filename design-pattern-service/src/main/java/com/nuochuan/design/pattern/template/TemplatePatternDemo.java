@@ -1,5 +1,8 @@
 package com.nuochuan.design.pattern.template;
 
+/**
+ * 模板模式
+ */
 public class TemplatePatternDemo {
 
     public static void main(String[] args) {

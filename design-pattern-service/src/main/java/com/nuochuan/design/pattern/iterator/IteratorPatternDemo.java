@@ -1,5 +1,8 @@
 package com.nuochuan.design.pattern.iterator;
 
+/**
+ * 迭代器模式
+ */
 public class IteratorPatternDemo {
 
     public static void main(String[] args) {
